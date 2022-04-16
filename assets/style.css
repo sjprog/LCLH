@@ -161,7 +161,7 @@ color:#73bfb8;
 /* sobre a loja */
 
 .footer-container{
-    background-image: url(01.jpg);
+    background-image: url(CARONA04.jpg);
     background-position: center;
 }
 
@@ -175,7 +175,7 @@ color:#73bfb8;
 .about-card{
     float: left;
     width:30%;
-    padding-top: 30px;
+    padding: 30px;
     background-color: #fff;
     text-align: center;
     box-sizing: border-box;
@@ -188,10 +188,12 @@ color:#73bfb8;
 
 .about-card i{
     font-size: 50px;
-    color: #aaa;
+    color: #AAA;
 }
 
 .about-card p{
     margin-top: 50px;
     font-size: 14px;
+    line-height: 22px;
+    color: #222;
 }
