@@ -157,3 +157,41 @@ color:#73bfb8;
 #design-box {
     background-color: #73bfb8;
 }
+
+/* sobre a loja */
+
+.footer-container{
+    background-image: url(01.jpg);
+    background-position: center;
+}
+
+.about-container{
+    max-width: 1200px;
+    padding: 30px 10px;
+    position: relative;
+    clear: both;
+}
+
+.about-card{
+    float: left;
+    width:30%;
+    padding-top: 30px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.middle-card{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-card i{
+    font-size: 50px;
+    color: #aaa;
+}
+
+.about-card p{
+    margin-top: 50px;
+    font-size: 14px;
+}
