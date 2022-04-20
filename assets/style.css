@@ -7,7 +7,7 @@ html{
 .banner{
     width: 100%;
     height: 600px;
-    background-image: url(01.jpg);
+    background-image: url(CARONA04.jpg);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -161,14 +161,14 @@ color:#73bfb8;
 /* sobre a loja */
 
 .footer-container{
-    background-image: url(CARONA04.jpg);
+    background-image: url(002.jpg);
     background-position: center;
 }
 
 .about-container{
     max-width: 1200px;
     padding: 30px 10px;
-    position: relative;
+    position: relative; 
     clear: both;
 }
 
@@ -195,7 +195,8 @@ color:#73bfb8;
     margin-top: 50px;
     font-size: 14px;
     line-height: 22px;
-    color: #222;
+    color: #222; 
+    text-align: left;
 }
 
 /* footer */
@@ -208,8 +209,9 @@ footer{
 }
 
 .form-container{
+    padding: 40px;
     width: 65%;
-    height: 375px;
+    height: 395px;
     position: relative;
     display: block;
 }
@@ -218,18 +220,18 @@ footer{
     width: 100%;
     height: 100%;
     background-color: #fff;
-    opacity: .5;
+    opacity: .8;
 }
 
 .form-container form{
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 50px;
+    left: 50px;
     height: 300px;
 }
 
 .form-container input, .form-container textarea{
-    width: 400px;
+    width: 650px;
     display: block;
     border: none;
     padding: 10px;
@@ -237,7 +239,7 @@ footer{
     border-bottom: 1px solid #aaa;
     border-radius: 0;
     background-color: transparent;
-
+    
 
 }
 
@@ -268,5 +270,19 @@ footer{
     
 
 
+}
+
+
+.copyright{
+    color: #222;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
