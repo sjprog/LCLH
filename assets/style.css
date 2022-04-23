@@ -1,5 +1,7 @@
 html{
     font-family: Helvetica, sans-serif;
+    
+
 }
 
 /* header */
@@ -37,6 +39,7 @@ html{
     top: 0;
     color: #fff;
     padding-top: 65px;
+    text-shadow: 1px 1px rgb(4, 4, 4);
 }
 .box-banner-title h1{
     font-size: 32px;
@@ -53,7 +56,7 @@ html{
     bottom: 0;
     width: 100%;
     height: 175px;
-
+    
 }
 
 .company-info-background{
@@ -65,9 +68,13 @@ html{
 }
 .company-info-titlebox{
     position: absolute;
-    padding-left: 10%;
-    top: 40px;
-    width: 500px;
+    padding-left: 8%;
+    padding-right: 8%;
+    top: 30px;
+    width: 100%;
+    font-size: 20px;
+    text-shadow: 1px 1px #ddd;
+        
 }
 .company-info-titlebox h2, .company-info-titlebox p{
     color: #222;
