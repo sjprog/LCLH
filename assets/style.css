@@ -72,9 +72,8 @@ html{
     position: absolute;
     padding-left: 8%;
     padding-right: 8%;
-    top: 30px;
-    width: 100%;
-    font-size: 20px;
+    top: 20px;    
+    font-size: 17px;
     text-shadow: 1px 1px #ddd;
         
 }
@@ -90,16 +89,16 @@ html{
 /* serviço */
 
 .services-container{
-    max-width: 1200px;
+   
     padding: 30px 10%;
     padding-bottom: 0;
 
 }
 .service-box{
-    width: 100%;
+   
     position: relative;
     clear: both;
-    height: 150px;
+    height: 200px;
     margin-bottom: 30px;
     
 }
@@ -116,7 +115,7 @@ html{
     text-align: center;
     line-height: 150px;
     padding: 20px;
-    box-sizing: border-box;
+    
 }
 .service-title p{
     padding-top: 35px;
